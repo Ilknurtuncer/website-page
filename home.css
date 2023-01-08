@@ -119,10 +119,13 @@ main div a {
 .main__div3{
   display: flex;
   justify-content: center;
-text-align: center;padding: 2rem;
+text-align: center;
+padding: 2rem;
+flex-wrap: wrap;
 }
 .main__div3 div{
   width: 30vw;
+  padding: 0.5rem;
 }
 
 

@@ -4,13 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-}
 /*! HEADER */
 header {
   padding: 1rem;
-  background-color: #35424a;
+  background-color: #35424A;
   color: white;
-  border-bottom: 3px solid;
+  border-bottom: 3px solid #A94A63;
 }
 nav ul {
   display: flex;

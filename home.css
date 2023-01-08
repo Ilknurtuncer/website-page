@@ -5,11 +5,11 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 /*! HEADER */
-header {
+header{
   padding: 1rem;
   background-color: #35424A;
   color: white;
-  border-bottom: 3px solid #A94A63;
+  border-bottom: 2.5px solid #A94A63;
 }
 nav ul {
   display: flex;
@@ -33,6 +33,7 @@ nav li a:active {
   display: flex;
   /* align-content: center; */
   /* gap: 2rem; */
+  padding: 10px;
   font-size: 0.8rem;
   vertical-align: middle;
 }
@@ -60,13 +61,16 @@ footer {
   position: absolute;
   bottom: 0px;
   width: 100vw;
-
+  height: 15vh;
 }
 /* ! MAIN__DIV2 */
 .main__div2 {
   background-color: #35424a;
   padding: 1.5rem;
   color: white;
+}
+.main__div2 a{
+  font-weight: 700;
 }
 main div form {
 float: right;
@@ -75,7 +79,16 @@ font-size: 0.5rem ;
 main div a {
   text-decoration: none;
   text-align: right;
- 
+}
+
+#email{
+  width: 180px;
+  height: 20px;
+  padding:5px;
+  font-size: 8px;
+  outline-style: none;
+  outline-offset: 0px;
+  vertical-align: middle;
 }
 .submit{
   height: 20px;
